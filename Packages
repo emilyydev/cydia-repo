@@ -1,7 +1,7 @@
 Package: neofetch
 Version: 7.1.0.2
 Architecture: iphoneos-arm
-Maintainer: emilyy
+Maintainer: KawaiiZenbo
 Depends: coreutils, gawk, grep, bash, coreutils-bin, system-cmds, darwintools
 Filename: ./debs/neofetch.deb
 Size: 86880
