@@ -17,4 +17,5 @@ I recommend using a linux server with either nginx or apache2 (depends on your p
 It comes with the neofetch package and a script to keep the repo up to date. It also includes a simple page to add your repo which can run on most (if not all) Safari versions.
 
    
-Enjoy!
+**Credits**
+KawaiiZenbo for the neofetch package!
