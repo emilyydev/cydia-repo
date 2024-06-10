@@ -26,4 +26,4 @@ KawaiiZenbo for the neofetch package!
 **Support**<br>
 If you need support, feel free to add me on Discord. My username is emilyydev.
 
-Thanks for reading all of this!
+**Thanks for reading all of this!**
