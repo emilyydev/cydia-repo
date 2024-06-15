@@ -7,6 +7,5 @@
    document.title = repoName;
    var txt = document.querySelector(".repoName");
    txt.textContent = repoName;
-   document.title = repoDescription;
    var txt2 = document.querySelector(".repodesc");
    txt2.textContent = repoDescription;
