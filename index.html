@@ -1,11 +1,67 @@
-<script>
-   var repoName = "emilyy's cydia repo template"; // replace this with your repo name!
-   var repoDescription = "easy to setup cydia repo template!"; // replace this with your description!
-</script>
-<pre><center>
-<title></title> 
-  <h1 class="repoName"></h1>
-<p class="repodesc"></p>
-<br>
-<li>Add to <a id="cydia-link" class="btn btn-sm btn-default" href="#">Cydia</a></li></center></pre>
-<script src="core.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #282828;
+            --fg: #ebdbb2;
+            --red: #fb4934;
+            --green: #b8bb26;
+            --yellow: #fabd2f;
+            --blue: #83a598;
+            --purple: #d3869b;
+            --aqua: #8ec07c;
+            --orange: #fe8019;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--fg);
+            font-family: 'Outfit', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1.repoName {
+            color: var(--orange);
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        p.repodesc {
+            color: var(--fg);
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+
+        a {
+            color: var(--blue);
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: var(--aqua);
+        }
+
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="repoName"></h1>
+    <p class="repodesc"></p>
+    <br>
+    <li>Add to <a id="cydia" href="#">[Cydia]</a></li>
+    
+    <script src="config.js"></script>
+    <script src="core.js"></script>
+</body>
+</html>
